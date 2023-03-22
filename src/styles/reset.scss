@@ -22,7 +22,7 @@ p {
   padding: 0;
   margin: 0;
   font-size: 30px;
-  line-height: 20px;
+  line-height: 40px;
 }
 
 * {
@@ -30,8 +30,8 @@ p {
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+  // max-width: 100%;
+  // height: auto;
 }
 
 input,
@@ -54,36 +54,4 @@ li {
   padding: 0;
   margin: 0;
   list-style: none;
-}
-
-.container {
-  width: 1420px;
-  margin: 0 auto;
-}
-
-.flex {
-  display: flex;
-}
-
-.flex-center {
-  align-items: center;
-  justify-content: center;
-}
-
-h2 {
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 47px;
-  color: $white;
-  text-align: center;
-  opacity: 1;
-  transition: opacity 0.5s;
-}
-
-.violet {
-  color: $brown;
-}
-
-.orange {
-  color: $orange;
 }
